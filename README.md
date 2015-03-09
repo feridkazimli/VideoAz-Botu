@@ -10,6 +10,6 @@ print_r($videolist);
 <h3>İstifadəsi olduqca rahatdı vaxt olduqca özümdə təkmillədirməyə davam edəcəm</h3>
 <p>Videonu göstərmək üçün link_id ni alıb</p>
 <pre>
-echo "iframe width='640' height='389' src='http://www.video.az/ru/embed/video/".$videoUrl." 'frameborder='0'></iframe>";
+echo "iframe width='640' height='389' src='http://www.video.az/ru/embed/video/".$link_id." 'frameborder='0'></iframe>";
 </pre>
 <p>bu şəkildə göstərə bilərsiz .</p>
