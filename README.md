@@ -8,10 +8,8 @@ $videolist = $videoAz->search_list($url);
 print_r($videolist);
 </pre>
 <h3>İstifadəsi olduqca rahatdı vaxt olduqca özümdə təkmillədirməyə davam edəcəm</h3>
-Videonu göstərmək üçün link_id ni alıb 
-
+<p>Videonu göstərmək üçün link_id ni alıb</p>
 <pre>
-echo '<iframe width="640" height="389" src="http://www.video.az/ru/embed/video/'.$videoUrl;
-echo '"frameborder="0" allowfullscreen></iframe>';
+echo "iframe width='640' height='389' src='http://www.video.az/ru/embed/video/".$videoUrl." 'frameborder='0'></iframe>";
 </pre>
-bu şəkildə göstərə bilərsiz .
+<p>bu şəkildə göstərə bilərsiz .</p>
