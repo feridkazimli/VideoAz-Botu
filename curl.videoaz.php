@@ -29,14 +29,13 @@ if($url != NULL){
 	preg_match_all($patternDuration,$curlOpen,$resultDuration);
 	for($x=1;$x<count($resultSee[1]);$x++){
 		$link_id     = $resultDefault[1][$x];
-		$link        = $link_id;
 		$title       = $resultDefault[3][$x];
 		$image       = $resultDefault[4][$x];
 		$see         = $resultSee[1][$x];
 		$duration    = $resultDuration[1][$x];
 
 		self::$data[ ] = array (
-		'url' => $link,
+		'url' => $link_id,
 		'title' => $title,
 		'image' => $image,
 		'see' => $see,
