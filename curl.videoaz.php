@@ -13,8 +13,6 @@ static $data = array();
 
 Parametre : $url 
 
-Bosluqlari silmek
-
 */
 function search_list($url = NULL) {
 
